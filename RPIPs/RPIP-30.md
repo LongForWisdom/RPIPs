@@ -36,8 +36,7 @@ proposal. Mechanically, the blue categories are RPL staked from 10-15% of borrow
 (incentivizing), RPL staked from 15-30% of borrowed ETH value (overshoot), and RPL staked above 30%
 of borrowed ETH value (speculation).
 
-| ![image](../assets/rpip-draft/overall_spend_pie_curr.png) | ![image](../assets/rpip-draft/overall_spend_pie_prop.png) |
-|:---------------------------------------------------------:|:-------------------------------------:|
+![image](../assets/rpip-draft/overall_spend_pie_curr.png) ![image](../assets/rpip-draft/overall_spend_pie_prop.png)
 
 The proposal focuses a lot more spend on incentivizing minipool creation, while still spending a
 significant amount on the speculative and hands-off categories of RPL staking (compare with Dev
