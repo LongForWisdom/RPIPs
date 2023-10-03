@@ -1,9 +1,9 @@
 ---
-rpip: <to be assigned>
+rpip: 
 title: Voted Operational Process Framework
-description: <Description is one full (short) sentence>
+description: 
 author: LongForWisdom (@LongForWisdom)
-discussions-to: <URL>
+discussions-to: 
 status: Draft
 type: Meta
 created: 2023-10-02
@@ -23,7 +23,7 @@ The motivation for some VOP-like framework can be summarized as the desire for i
 A VOP-like framework allows participants in the Rocket Pool DAOs to more easily be able to understand the common processes that shape the DAOs. It does this in a few main ways:
 * The types of process that exist can be listed, summarized and presented in such a way that is more-approachable to the average participant than reading through multiple full RPIPs. Participant attention is a key resource and should not be wasted on implementation details, if all that is desired is a high-level overview of 'how does process x work in Rocket Pool'.
 * Votes and discussions can be labelled explicitly according to the process they are using. This makes it easier for participants to quickly slot items into the appropriate mental boxes. An RPIP is important, because it represents a change to the status quo. A GMC election is also important, but it doesn't represent a change to how Rocket Pool works. A grants appeal is potentially unimportant to a less-engaged participant, and can be more safely ignored. 
-* The outcomes of processes can be recorded in a clear, consistent and accessible manner. Again, the goal is to minimizing the attention and mental effort required by potential participants to find information they are looking for.
+* The outcomes of processes can be recorded in a clear, consistent and accessible manner. Again, the goal is to minimize the attention and mental effort required by potential participants to find information they are looking for.
 
 **Extensibility**
 
@@ -35,10 +35,10 @@ The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL 
 
 ### VOP Definition
 * A Voted Operational Process (VOP) is a process involving a vote through which an operational decision is made.
-  * Some operational decisions within the Rocket Pool DAOs MAY NOT require a vote.
-* A VOP MUST NOT be defined to cover processes that are improvements to the Rocket Pool protocol, Rocket Pool DAOs, or anything that should otherwise be covered by an RPIP.
+  * Some operational decisions within the Rocket Pool DAOs MAY NOT require a vote, and therefore are not included in the VOP framework.
+* A VOP MUST NOT be defined to cover decisions that are improvements to the Rocket Pool protocol, Rocket Pool DAOs, or anything that should otherwise require a new RPIP.
 
-### VOP Definition Core Elements
+#### VOP Definition Core Elements
 
 * Code - A short, unique, human-readable string identifier that can be used to identify this VOP and its type. Should take the rough form of VOP-SUBJECT-ACTION
 * Name - A longer identifier in plain english. 
@@ -54,9 +54,9 @@ The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL 
 
 #### Framework
 * The VOP framework SHOULD be used for anything that fits the definition of a voted operational process. 
-  * If an RPIP defines a voted operational process without adhering to the VOP framework, it MUST include detailed rationale as to why adhering to the VOP framework is not preferable.
-* A VOP definition MUST be included in the RPIP in which the VOP is defined.
-  * VOP definitions MUST include the elements defined in the VOP Core Elements section of this specification.
+  * If an RPIP specifies a process that could reasonably fit within the VOP framework, without adhering to the VOP framework, it MUST include detailed rationale as to why adhering to the VOP framework is not preferable.
+* A VOP definition MUST be included in the RPIP in which the VOP is described.
+  * VOP definitions MUST include the elements defined in the VOP Definition Core Elements section of this specification.
   * VOP definitions SHOULD follow the template defined in the VOP Definition Template section of this specification.
 
 #### VOP Overview
@@ -77,31 +77,70 @@ The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL 
 
 
 ### VOP Definition Template
-$TODO Make better
-* Code
-* Name
-* Description
-* Purpose
-* Trigger(s)
-* Responsible Party
-* Voting Group
-* Vote Type
-* Other Requirements
+```
+### <VOP CODE>
+This is a voted operational process (VOP) definition, see RPIP-vop for more information.
+
+* **Name:** 
+* **Description:** 
+* **Purpose:** 
+* **Responsible Party:** 
+* **Voting Group:** 
+* **Vote Type:** 
+* **Trigger(s):** 
+  * 
+  * 
+  * 
+* **Other Requirements:**   
+  * 
+  *
+  *
+```
+
+#### VOP-EXAMPLE-EXAMPLE
+This is a voted operational process (VOP) definition, see RPIP-vop for more information.
+
+* **Name:** Voted Operational Process Example  
+* **Description:** An example Voted Operational Process  
+* **Purpose:** Demonstrate Voted Operational Process templates.  
+* **Responsible Party:** RPIP Author  
+* **Voting Group:** RPIP Author  
+* **Vote Type:** Majority (Show of hands)  
+* **Trigger(s):**   
+  * Modification of RIP-vop structure.
+  * When bored.
+* **Other Requirements:** No other requirements
+
 
 ### VOP Record Section Template
-$TODO Allow table entries
 
-#### VOP-SUBJECT-ACTION-ID
-* Date
-* URL
-* Outcome
+```
+| Code                   | Date       | Reference           | Outcome                                     |
+|------------------------|------------|---------------------|---------------------------------------------|
+| VOP-CODE-1             | YYYY-MM-DD | [Link](outcome link)| Brief description of VOP outcome for record |
+| VOP-CODE-2             | YYYY-MM-DD | [Link](outcome link)| Brief description of VOP outcome for record |
 
-### VOP Overview Entry
+Note, table generators exist: https://www.tablesgenerator.com/markdown_tables#
 
-#### VOP-SUBJECT-ACTION
-* VOP Name
-* VOP Extended Description
-* Link to VOP Definition
+```
+
+| Code                   | Date       | Reference           | Outcome                                   |
+|------------------------|------------|---------------------|-------------------------------------------|
+| VOP-EXAMPLE-EXAMPLE-1  | 2023-10-03 | [Link](example.com) | The example was ratified to wide acclaim. |
+
+
+### VOP Overview Entry Template
+
+```
+#### VOP-EXAMPLE-EXAMPLE - <CONTAINING RPIP>
+<VOP Extended Description>
+```
+
+#### VOP-EXAMPLE-EXAMPLE - [RPIP-VOP](RPIP-VOP.md)
+This VOP is an example voter operational process that is intended to demonstrate how to define VOPs, describe VOPs, and record VOP instance outcomes. This VOP is just an example, so there's not really very much to say in this  overview! 
+
+The intention is for overviews such as this to exist in a single informational RPIP that lists all defined VOPs that exist in the Rocket Pool DAOs. These descriptors will allow newcomers to the Rocket Pool community to easily identify common processes that take place at a high-level, and learn more about any they are interested in.
+
 
 ## Rationale
 $TODO
