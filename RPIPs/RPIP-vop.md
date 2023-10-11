@@ -62,23 +62,16 @@ This section describes what a VOP is, and when to use the VOP framework.
 
 ---
 
-### VOP Usage
+### VOP Usage - Definitions
+> The VOP-GMC-MEMBERSELECT definition describes how GMC elections take place.
 
-### VOP Definitions
-This section describes the concept of a VOP definition, and how to include one in an RPIP. 
+* A VOP definition contains the elements that make up a particular type of VOP.
+* A VOP definition MUST include the elements defined in the VOP Elements section of this specification.
+* A VOP definition SHOULD follow the template defined in the VOP Definition Template section of this specification.
+* If use of the VOP framework is deemed appropriate, a VOP definition MUST be included in the RPIP in which the process is described.
 
-A VOP definition contains the elements that make up a particular type of VOP.
-> For example, the VOP-GMC-MEMBERSELECT definition describes how GMC elections take place.
-
-A VOP definition MUST include the elements defined in the VOP Elements section of this specification.
-
-A VOP definition SHOULD follow the template defined in the VOP Definition Template section of this specification.
-
-If use of the VOP framework is deemed appropriate, a VOP definition MUST be included in the RPIP in which the process is described.
 
 #### VOP Elements
-This section defines what makes up a VOP definition.
-
 * Code - A short, unique, human-readable string identifier that can be used to identify instances of this VOP. Should take the rough form of VOP-SUBJECT-ACTION
 * Name - A longer identifier in plain english. 
 * Description - A description of this VOP.
@@ -92,7 +85,7 @@ This section defines what makes up a VOP definition.
 ##### VOP Triggers
 * An event or situation that triggers this VOP to take place.
 * VOPs MAY have multiple triggers. 
-  * Multiple triggers have an OR relationship unless specified otherwise: Any met trigger can result in a new VOP instance.
+  * Multiple triggers have an OR relationship unless specified otherwise: Any met trigger can result in a new VOP instance.  
 * Triggers are considered mandatory unless explicitly marked optional. 
   * 'At Will' is an exception to this, and is always to be considered optional. 
   * If a mandatory trigger condition is met, a responsible party SHOULD begin an instance of the VOP.
@@ -104,37 +97,36 @@ This section defines what makes up a VOP definition.
 
 ---
 
-### VOP Instances
-A VOP instance is an instanciation of a VOP definition. 
-> For example, VOP-GMC-MEMBERSELECT-1 is a GMC election, with candidates, a vote, results, etc.
+### VOP Usage - Instances
+> VOP-GMC-MEMBERSELECT-1 is a single GMC membership selection, with a date, candidates, a vote, and results.
 
-When a VOP instance is triggered, it SHALL be assigned the next free ID number by the responsible party.
+* A VOP instance is an instanciation of a VOP definition.  
+* When a VOP instance is triggered, it SHALL be assigned the next free ID number by the responsible party.
   * ID numbers are unique per VOP definition, start at 1, and increment by 1. 
   * VOP ID's MUST be appended to the VOP code with a hyphen.
 
 ---
 
-### VOP Records
-A VOP record contains the result of a concluded VOP instance.
-> For example, the results of VOP-GMC-MEMBERSELECT-1 formatted into the appropriate record section.
+### VOP Usage - Records
+> The details of the VOP-GMC-MEMBERSELECT-1 instance are recorded into the appropriate record VOP record section.
 
-A VOP record section MUST be included in the RPIP in which a VOP is defined.
+* A VOP record entry contains the result of a concluded VOP instance.
+* A VOP record section MUST be included in the RPIP in which a VOP is defined.
   * The VOP record section SHOULD follow the template defined in the VOP Record Template section of this specification.
   
-When a VOP instance concludes, its outcome MUST be recorded in the appropriate VOP record section by the RPIP Editors. 
+* When a VOP instance concludes, its outcome MUST be recorded in the appropriate VOP record section by the RPIP Editors. 
   * A VOP Record MUST include the date the VOP concluded.
   * A VOP Record MUST include an appropriate URL link indicating the outcome of the VOP.
   * A VOP Record MUST include a brief, human-readable summary of the outcome.
 
 ---
 
-### VOP Overview
-The VOP Overview is a summary of defined VOPs within Rocket Pool.
-> For example, a Living informational RPIP that lists the currently defined VOPs and the RPIPs they are attached to.
+### VOP Usage - Overview
+> A Living informational RPIP that lists the currently defined VOPs and the RPIPs in which they are defined.
 
-A VOP Overview MUST exist as a living, informational RPIP maintained by the RPIP Editors.
-
-Whenever an RPIP is ratified, the RPIP Editors MUST update the VOP Overview RPIP to include an entry for any newly ratified VOPs.
+* The VOP Overview is a summary of defined VOPs within Rocket Pool.  
+* A VOP Overview MUST exist as a living, informational RPIP maintained by the RPIP Editors.
+* Whenever an RPIP is ratified, the RPIP Editors MUST update the VOP Overview RPIP to include an entry for any newly ratified VOPs.
   * The VOP Overview entry SHOULD follow the template defined in the VOP Overview Entry Template section of this specification.
 
 ---
@@ -185,6 +177,7 @@ This is a voted operational process (VOP) definition, see RPIP-vop for more info
   * When bored.
 * **Other Requirements:** No other requirements
 
+---
 
 #### VOP Record Section Template
 
@@ -204,6 +197,7 @@ Note, table generators exist: https://www.tablesgenerator.com/markdown_tables#
 |------------------------|------------|---------------------|-------------------------------------------|
 | VOP-EXAMPLE-EXAMPLE-1  | 2023-10-03 | [Link](example.com) | The example was ratified to wide acclaim. |
 
+---
 
 #### VOP Overview Entry Template
 
