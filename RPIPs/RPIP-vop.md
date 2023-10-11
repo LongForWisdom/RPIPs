@@ -12,7 +12,7 @@ created: 2023-10-02
 ## Abstract
 Abstract is a multi-sentence (short paragraph) technical summary. This should be a very terse and human-readable version of the specification section. Someone should be able to read only the abstract to get the gist of what this specification does.
 
-$TODO
+$TODO Add
 
 ## Motivation
 
@@ -45,7 +45,7 @@ The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL 
 This section describes what a VOP is, and when to use the VOP framework.
 
 * A Voted Operational Process (VOP) is a process involving a vote through which an operational decision is made.
-  * Some operational decisions within the Rocket Pool DAOs MAY NOT require a vote, and therefore are not included in the VOP framework.
+  * Some operational decisions within the Rocket Pool DAOs MAY NOT require a vote, and should not be included under the VOP framework.
 * A VOP MUST NOT be defined to cover decisions that are improvements to the Rocket Pool protocol, Rocket Pool DAOs, or anything that should otherwise require use of the RPIP process.
 * The dividing line between which decisions should use the RPIP process versus the VOP framework may be unavoidably blurry. The following general recommendations are made:
   * If a proposal can reasonably predicted to be unique, it is RECOMMENDED to use the RPIP process.
@@ -56,7 +56,7 @@ This section describes what a VOP is, and when to use the VOP framework.
 
 ---
 
-### VOP Visual Aid
+### Visual Aid for VOP Concepts
 
 ![image](../assets/rpip-draft/vops-diagram.png) 
 
@@ -108,9 +108,9 @@ This section describes what a VOP is, and when to use the VOP framework.
 ---
 
 ### VOP Usage - Records
-> The details of the VOP-GMC-MEMBERSELECT-1 instance are recorded into the appropriate record VOP record section.
+> The outcome of the VOP-GMC-MEMBERSELECT-1 instance are recorded into the appropriate record VOP record section.
 
-* A VOP record entry contains the result of a concluded VOP instance.
+* A VOP record entry contains the results of a concluded VOP instance.
 * A VOP record section MUST be included in the RPIP in which a VOP is defined.
   * The VOP record section SHOULD follow the template defined in the VOP Record Template section of this specification.
   
@@ -215,7 +215,7 @@ The intention is for overviews such as this to exist in a single informational R
 ---
 
 ## Rationale
-$TODO
+$TODO Add
 
 The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages.
 
@@ -225,7 +225,7 @@ If this RPIP is ratified, existing ratified RPIPs containing processes that woul
 
 In case of unintentional changes to the logic of existing processes, or ambiguity introduced by the changes, RPIP Editors MAY modify the relevant RPIPs to _restore logical parity only_ without requiring a pDAO vote.  
 
-The included processes are listed below, along with their VOP definitions. A PR has been prepared that will implement these changes. It will be merged by the RPIP Editors if this RPIP is ratified.
+The included processes are listed below, along with their VOP definitions. A PR has been prepared [$TODO Prepare PR :D] that will implement these changes. It will be merged by the RPIP Editors if this RPIP is ratified.
 
 ### VOP-GMC-MEMBERSELECT
 This is a voted operational process (VOP) definition, see RPIP-vop for more information.
