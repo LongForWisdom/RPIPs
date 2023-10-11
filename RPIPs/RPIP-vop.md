@@ -33,7 +33,7 @@ Adoption of a VOP-like framework helps to structure the processes of the Rocket 
 $TODO Remove
 The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in RFC 2119.
 
-### VOP Definition
+### VOPs: What and When?
 This section describes what a VOP is, and when to use the VOP framework.
 
 * A Voted Operational Process (VOP) is a process involving a vote through which an operational decision is made.
@@ -82,21 +82,21 @@ This section describes how to interact with the VOP framework in a given RPIP.
 
 #### VOP Definitions
 * A VOP definition contains the elements that make up a particular variety of VOP.
-  * For example, the VOP-GMC-ELECT definition describes how GMC elections take place.
+  * For example, the VOP-GMC-MEMBERSELECT definition describes how GMC elections take place.
 * A VOP definition MUST include the elements defined in the VOP Elements section of this specification.
 * A VOP definition SHOULD follow the template defined in the VOP Definition Template section of this specification.
 * If use of the VOP framework is deemed appropriate, a VOP definition MUST be included in the RPIP in which the process is described.
 
 #### VOP Instances
 * A VOP instance is an instanciation of a VOP definition. 
-  * For example, VOP-GMC-ELECT-1 is a GMC election, with candidates, a vote, results, etc.
+  * For example, VOP-GMC-MEMBERSELECT-1 is a GMC election, with candidates, a vote, results, etc.
 * When a VOP instance is triggered, it SHALL be assigned the next free ID number by the responsible party.
   * ID numbers are unique per VOP definition, start at 1, and increment by 1. 
   * VOP ID's MUST be appended to the VOP code with a hyphen.
 
 #### VOP Records
 * A VOP record contains the result of a concluded VOP instance.
-  * For example, the results of VOP-GMC-ELECT-1 formatted into the appropriate record section.
+  * For example, the results of VOP-GMC-MEMBERSELECT-1 formatted into the appropriate record section.
 * A VOP record section MUST be included in the RPIP in which a VOP is defined.
   * The VOP record section SHOULD follow the template defined in the VOP Record Template section of this specification.
 * When a VOP instance concludes, its outcome MUST be recorded in the appropriate VOP record section by the RPIP Editors. 
