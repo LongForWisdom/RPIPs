@@ -10,9 +10,8 @@ created: 2023-10-02
 ---
 
 ## Abstract
-Abstract is a multi-sentence (short paragraph) technical summary. This should be a very terse and human-readable version of the specification section. Someone should be able to read only the abstract to get the gist of what this specification does.
 
-$TODO Add
+The VOP Framework consists of VOP definitions, VOP records,VOP instances and the VOP overview. VOP definitions are included in RPIPs and define how a specific operational process takes place. VOP records are also included in RPIPs, and contain relevant information connected to the outcome of instances of a defined process. A VOP instance is a single example of a process taking place according to a VOP definition. The VOP overview is a living informational RPIP that summarizes existing VOP definitions for accessibililty and transparency. This RPIP also mandates the conversion of appropriate existing processes within the Rocket Pool DAOs to fall under the VOP framework. 
 
 ## Motivation
 
@@ -57,6 +56,8 @@ This section describes what a VOP is, and when to use the VOP framework.
 ---
 
 ### Visual Aid for VOP Concepts
+
+Note, these diagrams are all one framework. Not three different frameworks!
 
 ![image](../assets/rpip-draft/vops-diagram.png) 
 
