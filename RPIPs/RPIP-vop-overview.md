@@ -9,7 +9,6 @@ type: Informational
 created: 2023-10-02
 ---
 
-
 ## Abstract
 
 ## Motivation
@@ -51,7 +50,6 @@ Used to remove the Grants Management Committee Administrator. GMC members can re
 **Defined In:** [RPIP-20](RPIP-20.md)  
 **Voting Group:** pDAO  
 
-
 Used to select the membership of the Incentives Management Committee. The members are first nominated, and then elected via a pDAO vote. Selection takes place at least once a year, though more frequently if required due to lack of valid members to fill the committee.
 
 ## oDAO Membership Processes
@@ -67,10 +65,6 @@ Used by the pDAO to signal a desired change for membership in the oDAO. The pDAO
 **Voting Group:** oDAO  
 
 Used by the oDAO to add or remove its members. Voting takes place on-chain by existing oDAO members. The oDAO is required to vote on a member change if the pDAO suggest one via VOP-ODAO-MEMBERSUGGEST.  
-
-
-
-
 
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
