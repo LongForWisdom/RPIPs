@@ -11,18 +11,18 @@ created: 2023-10-02
 
 ## Abstract
 
-The VOP Framework consists of VOP definitions, VOP records, VOP instances, and the VOP overview. VOP definitions are included in RPIPs and define how a specific operational process takes place. VOP records are also included in RPIPs and contain relevant information connected to the outcome of instances of a defined process. A VOP instance is a single example of a process taking place according to a VOP definition. The VOP overview is a living informational RPIP that summarizes existing VOP definitions for accessibility and transparency. This RPIP also mandates the conversion of appropriate existing processes within the Rocket Pool DAOs to fall under the VOP framework. 
+The Voted Operational Process (VOP) Framework consists of VOP definitions, VOP records, VOP instances, and the VOP overview. VOP definitions are included in RPIPs and define how a specific operational process takes place. VOP records are also included in RPIPs and contain relevant information connected to the outcome of instances of a defined process. A VOP instance is a single example of a process taking place according to a VOP definition. The VOP overview is a living informational RPIP that summarizes existing VOP definitions for accessibility and transparency. This RPIP also mandates the conversion of appropriate existing processes within the Rocket Pool DAOs to fall under the VOP framework. 
 
 ## Motivation
 
-The creation of an operational process framework will lead to reduced participant cost, increased transparency, and increased extensibility for DAO operational decision-making.
+The creation of an operational process framework will lead to reduced participation cost, increased transparency, and increased extensibility for DAO operational decision-making.
 
 **Reduced Cost**
 
-First, the types of processes that exist can be listed, summarized, and presented in such a way that is more approachable to the average participant than reading through multiple full RPIPs. Participant attention is a key resource. If all that is needed is a high-level overview of 'how does process x work in Rocket Pool', then attention should not need to be spent digging through low-level details unless required.
+First, the types of processes that exist can be listed, summarized, and presented in such a way that is more approachable to the average participant than reading through multiple full RPIPs. Participant attention is a scarce and valuable resource. If all that is needed is a high-level overview of 'how does process x work in Rocket Pool', then attention should not need to be spent digging through low-level details unless required.
 
 Second, votes and discussions can be labeled explicitly according to the process they are using. This makes it easier for participants to quickly slot items into the appropriate mental boxes. Essentially, it becomes easier for voters and participants to tailor their level of engagement to the seriousness of the decision at hand. For example:
-* An RPIP is important because it now always represents a change to the status quo rather than an operational decision. "I should pay attention!"
+* RPIPs are now more important because they always represent a change to the status quo rather than an operational decision. "I should pay attention!"
 * A GMC election doesn't represent a change to how Rocket Pool works, but it's important to set the general direction of grant spending via membership. "I might provide some input!"
 * A grants appeal can be more safely left to those with more time/interest in low-level grant decisions. "Other parts of my life take priority right now!"
 
@@ -47,7 +47,7 @@ This section describes what a VOP is, and when to use the VOP framework.
 * The dividing line between which decisions should use the RPIP process versus the VOP framework may be unavoidably blurry. The following general recommendations are made:
   * If a proposal can reasonably predicted to be unique, it is RECOMMENDED to use the RPIP process.
   * If a proposal is the first of its type or class, and it is not anticipated to repeat frequently or regularly it is RECOMMENDED to use the RPIP process.
-  * If a proposal is not the first of its type or class, or if it is anticipated to repeat frequently or regularly it is RECOMMENDED to use the VOP framework. 
+  * If a proposal is not unique or is expected to occur frequently, the VOP framework is RECOMMENDED.
 * The VOP framework SHOULD be used for anything that fits the definition of a voted operational process. 
   * If an RPIP specifies a process that could reasonably fit within the VOP framework, without adhering to the VOP framework, it MUST include a detailed rationale as to why adhering to the VOP framework is not preferable.
 
@@ -84,13 +84,13 @@ This section describes what a VOP is, and when to use the VOP framework.
 * An event or situation that triggers this VOP to take place.
 * VOPs MAY have multiple triggers. 
   * Multiple triggers have an OR relationship unless specified otherwise: Any met trigger can result in a new VOP instance.  
-* Triggers are considered mandatory unless explicitly marked optional. 
+* Triggers SHALL be considered mandatory unless explicitly designated as optional.
   * 'At Will' is an exception to this, and is always to be considered optional. 
   * If a mandatory trigger condition is met, a responsible party SHOULD begin an instance of the VOP.
 
 ##### VOP Other Requirements
 * A VOP MAY have more detailed requirements or prerequisites than can be easily summarized into the VOP definition format.
-* Any requirements of this nature should be detailed under a specific heading in the same or another RPIP. 
+* Any requirements of this nature SHOULD be detailed under a specific heading in the same or another RPIP. 
   * This heading should then be referenced in the VOP definition under 'Other Requirements'.
 
 ---
@@ -113,7 +113,7 @@ This section describes what a VOP is, and when to use the VOP framework.
   * The VOP record section SHOULD follow the template defined in the VOP Record Template section of this specification.
   
 * When a VOP instance concludes, its outcome MUST be recorded in the appropriate VOP record section by the RPIP Editors. 
-  * A VOP Record MUST include the date the VOP concluded.
+  * A VOP Record MUST include the date the VOP instance concluded.
   * A VOP Record MUST include an appropriate URL link indicating the outcome of the VOP.
   * A VOP Record MUST include a brief, human-readable summary of the outcome.
 
@@ -137,7 +137,7 @@ This section lists requirements and common rules that apply to all usage of the 
 ---
 
 ### VOP Templates and Examples
-This section contains templates and examples to be used when interacting with the VOP framework.
+This section provides templates and examples for effective interaction with the VOP framework.
 
 
 #### VOP Definition Template
@@ -231,7 +231,7 @@ Having an overview in some form is valuable to less-engaged participants, and th
 
 Much of the benefit here comes from some standardized format for these processes. There is some argument for defining these in a more explicitly machine-readable format (YAML, JSON, etc), such that they can be used as source data for varying forms of display. However, we're already adding to the effort required when writing an RPIP just by adopting this framework. Requiring authors to include non-trivial YAML/JSON/etc seems like a step too far in terms of imposing boundaries.
 
-Arguments can also be made for formatting these differently, using tables, etc. Doesn't matter a huge amount. Bullets and bolded text are a fair middle ground between legibility and the use of vertical and horizontal space. 
+Alternative arguments could be made for different formatting approaches, such as tables. However, the chosen format represents a balanced approach between readability and efficient use of space. 
 
 In terms of the elements required for definitions, this represents my best guess of what's required within the bounds of what is reasonable for authors to add. Use of the framework may reveal the utility of additional elements or indicate the removal of some of the initial set. Doesn't feel worth overthinking too much, we can just adjust via experience.
 
@@ -243,7 +243,7 @@ Records in some form are valuable. Tables make the most sense, as they are fairl
 
 ## Backwards Compatibility
 
-If this RPIP is ratified, existing ratified RPIPs containing processes that would fall under the VOP framework will be modified to use the VOP framework. The explicit intention is to maintain the logic and rules of existing processes, and just change their presentation such that they integrate with the VOP framework.
+Upon ratification of this RPIP, existing ratified RPIPs containing processes that would fall under the VOP framework will be modified to use the VOP framework. The explicit intention is to maintain the logic and rules of existing processes, and just change their presentation such that they integrate with the VOP framework.
 
 In case of unintentional changes to the logic of existing processes, or ambiguity introduced by the changes, RPIP Editors MAY modify the relevant RPIPs to _restore logical parity only_ without requiring a pDAO vote.  
 
@@ -355,9 +355,9 @@ Optional:
 
 ## Security Considerations
 
-There are not many security considerations for this RPIP, as it is non-technical. Modifications to the logic of any existing processes are limited to separating those processes from the main RPIPs framework. 
+This RPIP primarily focuses on governance and operational procedures, thereby presenting minimal security concerns.
 
-The possibility exists that the attached PR and modifications to existing RPIPs may unintentionally modify the logic or rules governing existing processes. This is mitigated by explicitly giving RPIP Editors the power to restore the intended logic or rules without a further vote.
+There exists a risk that the proposed changes could inadvertently alter the logic or rules of existing processes. This is mitigated by explicitly giving RPIP Editors the power to restore the intended logic or rules without a further vote.
 
 The ratification of an extensible framework can be argued to imply the desire and intention to extend within that framework. This may run counter to any desire in the Rocket Pool community for a governance-minimized protocol.
 
