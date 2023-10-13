@@ -1,5 +1,5 @@
 ---
-rpip: to-be-assigned (please ctrl-f rpip-vop and replace with number)
+rpip: to-be-assigned <please ctrl-f RPIP-vop and replace with number>
 title: Voted Operational Process Framework
 description: A framework for voting groups in the Rocket Pool DAOs to make operational decisions.
 author: LongForWisdom (@LongForWisdom)
@@ -247,7 +247,7 @@ Upon ratification of this RPIP, existing ratified RPIPs containing processes tha
 
 Should unintentional changes or ambiguities arise from these modifications, RPIP Editors MAY modify the relevant RPIPs to _restore logical parity only_ in the relevant RPIPs without necessitating a pDAO vote.
 
-The included processes are listed below, along with their VOP definitions. A PR has been prepared [$TODO Prepare PR :D] that will implement these changes. It will be merged by the RPIP Editors if this RPIP is ratified.
+The included processes are listed below, along with their VOP definitions. A PR has been prepared [TODO prepare and link PR :D] that will implement these changes. It will be merged by the RPIP Editors if this RPIP is ratified.
 
 ### VOP-GMC-MEMBERSELECT
 This is a voted operational process (VOP) definition, see RPIP-vop for more information.
