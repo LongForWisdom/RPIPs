@@ -1,9 +1,9 @@
 ---
-rpip: to-be-assigned <please ctrl-f RPIP-vop and replace with number>
+rpip: <to be assigned, please ctrl-f RPIP-vop and replace with number>
 title: Voted Operational Process Framework
 description: A framework for voting groups in the Rocket Pool DAOs to make operational decisions.
 author: LongForWisdom (@LongForWisdom)
-discussions-to: 
+discussions-to: TBC
 status: Draft
 type: Meta
 created: 2023-10-02
