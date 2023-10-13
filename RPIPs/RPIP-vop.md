@@ -1,7 +1,7 @@
 ---
-rpip: 
+rpip: to-be-assigned (please ctrl-f rpip-vop and replace with number)
 title: Voted Operational Process Framework
-description: 
+description: A framework for voting groups in the Rocket Pool DAOs to make operational decisions.
 author: LongForWisdom (@LongForWisdom)
 discussions-to: 
 status: Draft
@@ -15,7 +15,7 @@ The Voted Operational Process (VOP) Framework consists of VOP definitions, VOP r
 
 ## Motivation
 
-The creation of an operational process framework will lead to reduced participation cost, increased transparency, and increased extensibility for DAO operational decision-making.
+The creation of an operational process framework will lead to reduced participation costs, increased transparency, and increased extensibility for DAO operational decision-making.
 
 **Reduced Cost**
 
@@ -64,8 +64,8 @@ This section describes what a VOP is, and when to use the VOP framework.
 > The VOP-GMC-MEMBERSELECT definition describes how GMC elections take place.
 
 * A VOP definition contains the elements that make up a particular type of VOP.
-* A VOP definition MUST include the elements defined in the VOP Elements section of this specification.
-* A VOP definition SHOULD follow the template defined in the VOP Definition Template section of this specification.
+* A VOP definition MUST include the elements defined under the VOP Elements heading of this specification.
+* A VOP definition SHOULD follow the template defined under the VOP Definition Template heading of this specification.
 * If the use of the VOP framework is appropriate, a VOP definition MUST be included in the RPIP in which the process is described.
 
 
@@ -110,7 +110,7 @@ This section describes what a VOP is, and when to use the VOP framework.
 
 * A VOP record entry contains the results of a concluded VOP instance.
 * A VOP record section MUST be included in the RPIP in which a VOP is defined.
-  * The VOP record section SHOULD follow the template defined in the VOP Record Template section of this specification.
+  * The VOP record section SHOULD follow the template defined under the VOP Record Section Template heading of this specification.
   
 * When a VOP instance concludes, its outcome MUST be recorded in the appropriate VOP record section by the RPIP Editors. 
   * A VOP Record MUST include the date the VOP instance concluded.
@@ -122,10 +122,10 @@ This section describes what a VOP is, and when to use the VOP framework.
 ### VOP Usage - Overview
 > A Living informational RPIP that lists the currently defined VOPs and the RPIPs in which they are defined.
 
-* The VOP Overview is a summary of defined VOPs within Rocket Pool.  
-* A VOP Overview MUST exist as a living, informational RPIP maintained by the RPIP Editors.
+* The VOP overview is a summary of defined VOPs within Rocket Pool.  
+* The VOP overview SHOULD exist as a living, informational RPIP maintained by the RPIP Editors.
 * Whenever an RPIP is ratified, the RPIP Editors MUST update the VOP Overview RPIP to include an entry for any newly ratified VOPs.
-  * The VOP Overview entry SHOULD follow the template defined in the VOP Overview Entry Template section of this specification.
+  * The VOP overview entry SHOULD follow the template defined under the VOP Overview Entry Template heading of this specification.
 
 ---
 
@@ -207,7 +207,7 @@ Voting Group: <VOTING GROUP>
 ```
 
 ##### VOP-EXAMPLE-OVERVIEW
-**Defined In:** [RPIP-vip](RPIP-vop.md)  
+**Defined In:** [RPIP-vop](RPIP-vop.md)  
 **Voting Group:** pDAO  
 
 This VOP is an example voter operational process that is intended to demonstrate how to define VOPs, describe VOPs, and record VOP instance outcomes. This VOP is just an example, so there's not very much to say in this overview! 
@@ -220,7 +220,7 @@ The intention is for overviews such as this to exist in a single informational R
 
 ### General Structure
 
-The general structure proposed here isn't anything new or ground-breaking. The value is in better categorizing decision-making such that decisions with very different characteristics don't _look the same_ to those needing to make them. This structure is the most lightweight possible to allow some form of categorization. Hierarchical structures are an option with more complexity, but I don't feel there is an obvious need to pay that cost within Rocket Pool at this time. A compositional structure with tagging is another option, tags can represent a better user experience, but they do require more active and consistent maintenance, which I don't believe can be relied upon based on the current state of the Rocket Pool DAOs.
+The proposed structure is neither new nor ground-breaking. The value is in better categorizing decision-making such that decisions with very different characteristics don't _look the same_ to those needing to make them. This structure is the most lightweight possible to allow some form of categorization. Hierarchical structures are an option with more complexity, but I don't feel there is an obvious need to pay that cost within Rocket Pool at this time. A compositional structure with tagging is another option, tags can represent a better user experience, but they do require more active and consistent maintenance, which I don't believe can be relied upon based on the current state of the Rocket Pool DAOs.
 
 ### Overview
 
@@ -235,7 +235,7 @@ Alternative arguments could be made for different formatting approaches, such as
 
 In terms of the elements required for definitions, this represents my best guess of what's required within the bounds of what is reasonable for authors to add. Use of the framework may reveal the utility of additional elements or indicate the removal of some of the initial set. Doesn't feel worth overthinking too much, we can just adjust via experience.
 
-The inclusion of 'Other Requirements' does threaten to remove the value of standardization here. If every VOP is defining different other requirements. This is probably something to watch out for, but doesn't feel like you can just remove this field. At the very least, existing processes define more detailed requirements than can be captured in the current definition keys so this element needs to exist, at least at the point of transition. 
+The inclusion of 'Other Requirements' does threaten to remove the value of standardization here. If every VOP is defining different other requirements. This is probably something to watch out for but it doesn't feel like you can just remove this field. At the very least, existing processes define more detailed requirements than can be captured in the current definition keys so this element needs to exist, at least at the point of transition. 
 
 ### Records
 
@@ -245,7 +245,7 @@ Records in some form are valuable. Tables make the most sense, as they are fairl
 
 Upon ratification of this RPIP, existing ratified RPIPs containing processes that would fall under the VOP framework will be modified to use the VOP framework. The explicit intention is to maintain the logic and rules of existing processes, and just change their presentation such that they integrate with the VOP framework.
 
-In case of unintentional changes to the logic of existing processes, or ambiguity introduced by the changes, RPIP Editors MAY modify the relevant RPIPs to _restore logical parity only_ without requiring a pDAO vote.  
+Should unintentional changes or ambiguities arise from these modifications, RPIP Editors MAY modify the relevant RPIPs to _restore logical parity only_ in the relevant RPIPs without necessitating a pDAO vote.
 
 The included processes are listed below, along with their VOP definitions. A PR has been prepared [$TODO Prepare PR :D] that will implement these changes. It will be merged by the RPIP Editors if this RPIP is ratified.
 
