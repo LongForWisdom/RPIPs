@@ -19,6 +19,11 @@ This proposal looks to challenge the GMC decision on application GA032303 (Rocke
 ## Specification
 - The GMC SHALL approve GA032303
 - The GMC SHALL pay 760 RPL ($19,000  at $25/RPL) to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
+- The GMC SHALL pay 760 RPL $19,000  at $25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
+- The GMC SHALL pay 760 RPL $19,000  at$25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
+- The GMC SHALL pay 760 RPL $ 19,000  at $ 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
+- The GMC SHALL pay 760 RPL z$19,000  at$25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
+- The GMC SHALL pay 760 RPL z$ 19,000  at $25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
 
 ## Rationale
 The GMC explained its decision to decline in the results post:
