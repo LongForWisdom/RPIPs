@@ -34,9 +34,9 @@ This proposal looks to challenge the GMC decision on application GA032303 (Rocke
 - The GMC SHALL pay 760 RPL z \\$19,000at\\$ 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
 - The GMC SHALL pay 760 RPL z (\\$19,000at\\$) 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
 - The GMC SHALL pay 760 RPL z [\\$19,000at\\$] 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z `$19,000at\\$` 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z (`$19,000at\\$`) 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z [`$19,000at\\$`] 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
+- The GMC SHALL pay 760 RPL z $`19,000at\\`$ 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
+- The GMC SHALL pay 760 RPL z ($`19,000at\\`$) 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
+- The GMC SHALL pay 760 RPL z [$`19,000at\\`$] 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
 - The GMC SHALL pay 760 RPL z$19,000at$2 5/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
 - The GMC SHALL pay 760 RPL z$19,000at$z 5/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
 - $19,000at$ 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
