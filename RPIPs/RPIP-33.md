@@ -68,8 +68,8 @@ $$
 
 Where:
 
-* $P_{n}$ is the voting power for $n$.
-* $S_{n}$ is RPL staked on the node $n$.
+* $$P_{n}$$ is the voting power for $n$.
+* $$S_{n}$$ is RPL staked on the node $n$.
 * $R_{n}$ is the maximum vote weight
 * $M_{n}$ is the maximum RPL staked that is counted towards voting
 * $N_{n}$ is the amount of bonded ETH on a node (the amount a node operator $n$ has contributed).
@@ -195,7 +195,7 @@ recency-biased binary search.
 
 The following values SHALL be snapshot each time they are changed on chain:
 
-* RPL staked on a node ($S_{x}$)
+* RPL staked on a node ($$S_{x}$$)
 * Bonded ETH ($N_{x}$)
 * Delegate of a node operator ($d_{x}$)
 * Price of RPL against ETH ($r$)
