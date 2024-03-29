@@ -68,8 +68,8 @@ $$
 
 Where:
 
-* $P_{n}$ is the voting power for $n$.
-* $S_{n}$ is RPL staked on the node $n$.
+* \\(P_{n}\\) is the voting power for $n$.
+* \\(S_{n}\\) is RPL staked on the node $n$.
 * $R_{n}$ is the maximum vote weight
 * $M_{n}$ is the maximum RPL staked that is counted towards voting
 * $N_{n}$ is the amount of bonded ETH on a node (the amount a node operator $n$ has contributed).
