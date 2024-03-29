@@ -18,28 +18,28 @@ This proposal looks to challenge the GMC decision on application GA032303 (Rocke
 
 ## Specification
 - The GMC SHALL approve GA032303
-- The GMC SHALL pay 760 RPL ($19,000  at $25/RPL) to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL $19,000  at $25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL $19,000  at$25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL $ 19,000  at $ 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z$19,000  at$25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z$ 19,000  at $25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z$19,000at$25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z $19,000at$ 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z ($19,000at$) 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z [$19,000at$] 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z \$19,000at\$ 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z (\$19,000at\$) 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z [\$19,000at\$] 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z \\$19,000at\\$ 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z (\\$19,000at\\$) 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z [\\$19,000at\\$] 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z $`19,000at`$ 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z ($`19,000at`$) 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z [$`19,000at`$] 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z$19,000at$2 5/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- The GMC SHALL pay 760 RPL z$19,000at$z 5/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
-- $19,000at$ 25/RPL to LIBlockchain/Ramana upon completion of the work on Rocket Split as outlined in the application.
+- ($19,000  at $25/RPL)he application.
+- $19,000  at $25/RPL t application.
+- $19,000  at$25/RPL toapplication.
+- $ 19,000  at $ 25/RPLhe application.
+- z$19,000  at$25/RPL t application.
+- z$ 19,000  at $25/RPLhe application.
+- z$19,000at$25/RPL to pplication.
+- z $19,000at$ 25/RPL t application.
+- z ($19,000at$) 25/RPLhe application.
+- z [$19,000at$] 25/RPLhe application.
+- z \$19,000at\$ 25/RPLhe application.
+- z (\$19,000at\$) 25/R the application.
+- z [\$19,000at\$] 25/R the application.
+- z \\$19,000at\\$ 25/R the application.
+- z (\\$19,000at\\$) 25in the application.
+- z [\\$19,000at\\$] 25in the application.
+- z $`19,000at`$ 25/RPLhe application.
+- z ($`19,000at`$) 25/R the application.
+- z [$`19,000at`$] 25/R the application.
+- z$19,000at$2 5/RPL toapplication.
+- z$19,000at$z 5/RPL toapplication.
+- ckchain/Ramana upon c
 
 ## Rationale
 The GMC explained its decision to decline in the results post:
