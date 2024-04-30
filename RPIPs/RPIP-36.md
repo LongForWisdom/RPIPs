@@ -25,7 +25,7 @@ Currently, there is no overview of the active committees within Rocket Pool, or 
 | 2022-03-17       | RPIP Editors                          | To manage and administer the RPIP process                              | [RPIP-1](RPIP-1)                       | N/A                                                                                                                                                                                        | N/A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | 2022-08-25       | pDAO Treasurer Role                   | To update the DAOs on pDAO budget spending                             | [RPIP-10](RPIP-10)                     | N/A                                                                                                                                                                                        | [Treasury Report Sheet](https://docs.google.com/spreadsheets/d/1b8ZtXBzh2TkwrdyGYMPtjZNPB4jzErhp0z29rwb2ByQ/)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | 2022-08-25       | Incentives Management Committee (IMC) | To support low slippage exchange between ETH and rETH                  | [RPIP-20](RPIP-20), [RPIP-10](RPIP-10) | [Mainnet](https://app.safe.global/home?safe=eth:0xb867EA3bBC909954d737019FEf5AB25dFDb38CB9), [Arbitrum](https://app.safe.global/home?safe=arb1:0xd7102A3744c302f167c53621453516345bC460d7) | [Tracking Sheet](https://docs.google.com/spreadsheets/d/1jLGkoiSjNr1UgG1spAH9ppBfrk_FqjJXg9CIw35nLCA/edit#gid=1325210165), [Discord Discuss](https://discord.com/channels/405159462932971535/929890788551323678), [Discord Execute](https://discord.com/channels/405159462932971535/1020537769635872808)                                                                                                                                                                                                                                                                                                                                                          |
-| 2022-10-11       | Grants Management Committee (GMC)     | To distribute funding to further the goals of the Rocket Pool protocol | [RPIP-26](RPIP-26), [RPIP-10](RPIP-10) | [Mainnet](https://app.safe.global/home?safe=eth:0x6efD08303F42EDb68F2D6464BCdCA0824e1C813a)                                                                                                | [Tracking Sheet](https://docs.google.com/spreadsheets/d/1dMtHJ4sffBidSN5RphLYC9A5HrsRNqHfqLVn-nJR104/edit#gid=1743976156), [Member Activity Sheet](https://docs.google.com/spreadsheets/d/1oxOioCXoVIqY4aFS9mEgHMgK18QLEfJcwlZk2-l6cfc/edit?usp=sharing), [Standard Operating Procedures](https://docs.google.com/document/d/1YNG0nhC04jDonO42hT_MZ0sQT-3EIU04HK9Fwrkzs30/edit#heading=h.s7ggzumy4f02), [Records RPIP](RPIP-29), [Discord Discuss](https://discord.com/channels/405159462932971535/1064611985523757067), [Discord Execute](https://discord.com/channels/405159462932971535/1140264795296256050), [Discord Channel](https://discord.gg/tZDFBbh7uM) |
+| 2022-10-11       | Grants Management Committee (GMC)     | To distribute funding to further the goals of the Rocket Pool protocol | [RPIP-40](RPIP-40), [RPIP-10](RPIP-10) | [Mainnet](https://app.safe.global/home?safe=eth:0x6efD08303F42EDb68F2D6464BCdCA0824e1C813a)                                                                                                | [Tracking Sheet](https://docs.google.com/spreadsheets/d/1dMtHJ4sffBidSN5RphLYC9A5HrsRNqHfqLVn-nJR104/edit#gid=1743976156), [Member Activity Sheet](https://docs.google.com/spreadsheets/d/1oxOioCXoVIqY4aFS9mEgHMgK18QLEfJcwlZk2-l6cfc/edit?usp=sharing), [Standard Operating Procedures](https://docs.google.com/document/d/1YNG0nhC04jDonO42hT_MZ0sQT-3EIU04HK9Fwrkzs30/edit#heading=h.s7ggzumy4f02), [Records RPIP](RPIP-29), [Discord Discuss](https://discord.com/channels/405159462932971535/1064611985523757067), [Discord Execute](https://discord.com/channels/405159462932971535/1140264795296256050), [Discord Channel](https://discord.gg/tZDFBbh7uM) |
 
 ## RPIP Editors
 
@@ -33,10 +33,11 @@ Currently, there is no overview of the active committees within Rocket Pool, or 
 
 | Member Since | Members        | Comment                                                                                      |
 |--------------|----------------|----------------------------------------------------------------------------------------------|
+|   2023-04-26 | Ramana         | Wander [resigns](https://dao.rocketpool.net/t/rpip-editor-resignation/1715), Ramana replaces |
 |   2022-08-16 | Darren Langley | Part of first batch of editors                                                               |
 |   2022-08-16 | Valdorff       | Part of first batch of editors                                                               |
 |   2022-08-16 | Ken            | Part of first batch of editors                                                               |
-|   2023-04-26 | Ramana         | Wander [resigns](https://dao.rocketpool.net/t/rpip-editor-resignation/1715), Ramana replaces |
+
 
 ### Historic Membership
 
@@ -50,8 +51,8 @@ Currently, there is no overview of the active committees within Rocket Pool, or 
 
 | Date Changed | Treasurer   | Comment                                                                                                                                                                                |
 |--------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   2022-08-25 | vacalaranja | Selected by [pDAO vote](https://vote.rocketpool.net/#/proposal/0x908efd03f7855e927ed8f1875037f25a6910ffdd2cb5a986928f587e1f4f2681)                                                     |
-|   2023-04-09 | Jasper      | Appointed as interim treasurer in RPIP-10 which was ratified by [pDAO vote](https://vote.rocketpool.net/#/proposal/0xbc81c06f58cfd393f5696488fdc464831c2435864a59f856157f12cb181d96c1) |
+|   2022-10-31 | vacalaranja | Selected by [pDAO vote](https://vote.rocketpool.net/#/proposal/0x908efd03f7855e927ed8f1875037f25a6910ffdd2cb5a986928f587e1f4f2681)                                                     |
+|   2022-08-25 | Jasper      | Appointed as interim treasurer in RPIP-10 which was ratified by [pDAO vote](https://vote.rocketpool.net/#/proposal/0xbc81c06f58cfd393f5696488fdc464831c2435864a59f856157f12cb181d96c1) |
 
 ## Incentives Management Committee
 
@@ -108,6 +109,7 @@ Currently, there is no overview of the active committees within Rocket Pool, or 
 |   2022-11-07 | jcrtp, invis, waqwaqattack, calurduran, Ken, mentor, objectObject                                         | objectObject promoted as [2022 GMC Full Selection](https://vote.rocketpool.net/#/proposal/0x8f166cb2c0adbb2066cdebf97a32e69dd3443efb61c154465a03aa37a2d76f60) runner-up after Wander steps down.                     |
 |   2022-10-30 | jcrtp, invis, waqwaqattack, calurduran, Ken, mentor, Wander                                               | [2022 GMC Full Selection](https://vote.rocketpool.net/#/proposal/0x8f166cb2c0adbb2066cdebf97a32e69dd3443efb61c154465a03aa37a2d76f60)                                                                                 |
 
+<!--
 
 ## RPIP Editor Notes
 
@@ -118,6 +120,8 @@ The general update process is suggested as:
 2. Update the contents of the google sheet with the membership changes.
 3. Use a [markdown table converter](https://www.tablesgenerator.com/markdown_tables#) to generate the required markdown and paste it into this RPIP.
 4. Update the link to the source google sheet with your copy of the google sheet (and ensure your sheet is set to public-view).
+
+-->
 
 The intention is for this RPIP to contain records about all active committees. For this reason, if any future committees are approved by the DAO, they should be added to this record by the RPIP editors.
 
