@@ -3,7 +3,7 @@ layout: other-content
 title: Introduction to the Tokenomics Rework
 nav-title: Part 2 - Introduction to the Tokenomics Rework
 description: Describes the contents and benefits of the tokenomics rework at a high level in comparison to the original tokenomics. 
-author: Valdorff (@Valdorff), LongForWisdom, Samus (@orangesamus), Paladin
+author: Valdorff (@Valdorff), LongForWisdom (@LongForWisdom), Paladin (@Paladin147)
 custom-next: /tokenomics-explainers/003-rework-foundation
 custom-prev: /tokenomics-explainers/001-why-rework
 depth: Intro
@@ -17,17 +17,22 @@ depth: Intro
 {%if cNext %}<a href="{{cNext.url|relative_url}}">Next - {{cNext.title}}</a>{%else%}<span>Next</span>{% endif %}
 </div>
 
+## Introduction
+
+Given the issues described in Part 1, we now propose a rework of RPL’s tokenomics. These proposals are a community initiative that is being widely discussed. The proposals not only directly address issues with the current RPL tokenomics, but also include changes that will benefit the Rocket Pool protocol as a whole. We are aiming to both improve the value and utility of Rocket Pool as a protocol, as well as drive new value to the RPL token, ensuring the protocol’s continued development and longevity.
+
 ## Items that directly address tokenomics issues
 
 With the rework, speculation and node operation are separated. It becomes **possible to run a Rocket Pool node with only an ETH bond.**
 
-For the variants of the rework that introduce RPL buy and burn or RPL buy and LP, it **may be sensible to hold RPL as a standalone investment** at protocol maturity.
+For the variants of the rework that introduce RPL buy and burn or RPL buy and LP, it **may be sensible to hold RPL as a standalone investment** at protocol maturity because a share of ETH revenue is used to drive value to the token.
 
 **Staking RPL alongside ETH bonds still has value** with the rework. 
 - This is the only group that has pDAO vote weight.
 - This group receives a share of protocol revenue proportional to their vote-eligible RPL.
+- Vote-eligible RPL maxes out at 150% of bonded ETH.
 
-With the rework, **we do not impose a value onto the market**. Node operators can freely value providing an RPL stake alongside their ETH bond. If the revenues make the speculation worthwhile, node operators can speculate but are not forced to do so.
+With the rework, **we do not impose a fixed level of RPL staking exposure onto the market**. Node operators can freely value providing any level of RPL stake alongside their ETH bond. If the revenues make the speculation worthwhile, node operators can speculate but are not forced to do so.
 
 There is **no RPL reward threshold/cliff** with the rework, so we avoid losing rETH supply from node operators exiting minipools to maintain the staking threshold.
 
@@ -44,9 +49,20 @@ Node-level penalties and forced validator exits are also included in the rework 
 
 Megapools will enable multiple validators to share the same Ethereum withdrawal address – this **reduces initial and ongoing gas costs** for node operators.
 
-**RPL inflation will be reduced from 5% to 1.5%**, because the current 3.5% inflation used for RPL rewards to NOs is no longer necessary.
+**RPL issuance will be reduced from 5% to 1.5%**, because the current 3.5% inflation used for RPL rewards to NOs is no longer necessary.
 
 Forced delegate upgrades (with a grace period) will limit the technical debt the Rocket Pool protocol accumulates from previous versions.
+
+## Personas
+
+|Persona|Now|With Rework|
+|-|-|-|
+|**Existing Rocket Pool Node Operator**|I need RPL to create minipools. I have to remain collateralized at 10% of RPL/ETH to receive RPL rewards. My commission is 14% of borrowed ETH.|I do not need RPL to create minipools. I will receive node operator commission paid in ETH (3.5%). If I *do* stake RPL I will also receive voter share rewards (5.0%) paid in ETH (with no 10% minimum or cliff). I will either benefit from surplus share value accrual to RPL (5.5%) or receive an additional (5.5%) of voter share rewards. I will no longer receive RPL rewards.|
+|**rETH holder**|My staking rewards are a function of Ethereum issuance and the commission paid to NOs. Currently 86% of solo staking rewards.|My staking rewards are a function of Ethereum issuance and the commission paid to the Rocket Pool protocol and then split by the pDAO to several targets. Initially unchanged at 86% of solo staking rewards but may be modified by future pDAO votes.|
+|**Passive RPL Holder**|Holding RPL is speculation on the liquid staking narrative and the utility of RPL as a bond.|In addition to the liquid staking narrative, holding RPL is speculation that the tokenomics changes will cause rETH supply to grow and generate surplus ETH returns, which **may** be used to accrue value to RPL (via buy+burn or buy+LP) or may solely go to NOs staking RPL.|
+|**ETH-only Node Operator**|I cannot operate a node with Rocket Pool|I can now operate a node with Rocket Pool without exposure to RPL. I receive a 3.5% node operator commission on borrowed ETH. The lower my bond, the higher my rewards relative to solo staking. |
+
+
 
 <div class="prev-next-container">
 {%if cPrev %}<a href="{{cPrev.url|relative_url}}">Previous - {{cPrev.title}}</a>{%else%}<span>Previous</span>{% endif %}
